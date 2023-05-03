@@ -168,7 +168,7 @@ h4 {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/TBD.jpeg");
-    height: 50%;
+    height: 60%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1103,9 +1103,9 @@ table td a:hover {
 }
 
 .index-heading-red {
-    background-color: var(--light-red-color);
+    /* background-color: var(--light-red-color); */
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 
