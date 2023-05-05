@@ -167,16 +167,12 @@ h4 {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/TBD.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/me.JPG");
     height: 60%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-}
-
-.cover {
-    height: 100%;
 }
 
 .hero-text {
@@ -190,26 +186,12 @@ h4 {
     font-size: 40px;
 }
 
-.cover .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: auto;
-}
-
 .hero-text .motto {
     overflow: hidden;
     border-right: 2px solid var(--orange-color);
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 2px;
-}
-
-.cover .hero-text {
-    top: 50%;
 }
 
 @media screen and (max-width: 550px) {
